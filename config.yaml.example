@@ -1,0 +1,41 @@
+- # list #1
+  pop3_ssl: yes
+  pop3_server: pop3.example.com
+  # pop3_serverport: 995 optional
+  pop3_user: example_list1
+  pop3_pass: r4nd0m_P4SSW0RD
+  smtp_starttls: yes
+  smtp_ssl: no
+  smtp_server: smtp.example.com
+  # smtp_serverport: 587 optional
+  smtp_user: example_list1
+  smtp_pass: r4nd0m_P4SSW0RD
+  sender_email: example_list1@example.com
+  sender_name: "Example Sender Name"
+  topic_prefix: "[EXAMPLE LIST #1] "
+  dsn_recipments:
+    - example_admin@example.com
+  recipients:
+    - example_recipment1@example.com
+    - example_recipment2@example.com
+
+- # list #2
+  pop3_ssl: yes
+  pop3_server: pop3.example.com
+  # pop3_serverport: 995 optional
+  pop3_user: example_list2
+  pop3_pass: r4nd0m_P4SSW0RD
+  smtp_starttls: yes
+  smtp_ssl: no
+  smtp_server: smtp.example.com
+  # smtp_serverport: 587 optional
+  smtp_user: example_list2
+  smtp_pass: r4nd0m_P4SSW0RD
+  sender_email: example_list2@example.com
+  sender_name: "Example Sender Name"
+  topic_prefix: "[EXAMPLE LIST #2] "
+  dsn_recipments:
+    - example_admin@example.com
+  recipients:
+    - example_recipment1@example.com
+    - example_recipment2@example.com
