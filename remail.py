@@ -74,7 +74,7 @@ for l in conf:
     pop3.quit()
 
     if msgs:
-        logger.info("%d new messages to forward", len(msgs))
+        logger.info("%d new messages to send", len(msgs))
 
     if msgs:
         if['smtp_ssl']:
