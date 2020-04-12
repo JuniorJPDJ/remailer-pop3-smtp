@@ -1,0 +1,1 @@
+*/5 * * * * cd /opt/remailer-pop3-smtp/ && /opt/remailer-pop3-smtp/remail.py
